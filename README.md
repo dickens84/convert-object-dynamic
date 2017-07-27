@@ -6,9 +6,9 @@
     1. Method :: clazzDynamic.convert(obj1, obj2); 
           * Convert obj1 to obj2 on the basis of field name.
           
-    2. Method :: clazzDynamic.convert(obj1, obj2, fieldsAssign) 
+    2. Method :: clazzDynamic.convert(obj1, obj2, HashMap<String,String>()) 
           * Convert obj1 to obj2 on the basis of field name. 
-          * fieldsAssign is HashMap<String,String>(), its manual assigning field name.
+          * HashMap<String,String>() is manual assigning field name.
                 [ key is obj1 field name , value is obj2 field name ] 
 # Dependency
     <dependency>
